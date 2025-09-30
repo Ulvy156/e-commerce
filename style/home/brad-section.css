@@ -1,0 +1,60 @@
+/* Brand Section */
+
+.branch-section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.branch-section h1 {
+    grid-column: span 4;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.brand-images  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.brand-images img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* brand bg images */
+.image-bg {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.brand-bg-img{
+    opacity: 0.4;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 100%;
+ }
+.brand-bg-img:hover {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+.brand-bg-img img {
+    width: 100%;
+    height: auto;
+}
+.brand-bg-img button{
+    color: inherit;
+    background: none;
+    border: none;
+}

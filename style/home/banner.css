@@ -1,0 +1,44 @@
+.banner-bg {
+  display: flex;
+  justify-content: flex-start;
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: center;
+  background-color: #f0e6e6;
+  background-image: url("https://i.pinimg.com/originals/16/f4/54/16f45487b6a10feb8a2cd3960e1d6971.jpg");
+}
+
+.banner-text {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+    row-gap: 5px;
+}
+.banner-text h2 {
+    color: gray;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.banner-text h1 {
+    font-weight: 400;
+    font-size: 30px;
+    color: coral;
+}
+
+.banner-text button {
+    background: #000;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    background: coral;
+    cursor: pointer;
+}
