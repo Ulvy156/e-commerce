@@ -1,0 +1,31 @@
+.contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+.text {
+  line-height: 40px;
+  text-align: center;
+}
+
+.text h1 {
+  font-size: 28px;
+  font-weight: bolder;
+  color: coral;
+}
+hr {
+  width: 20px;
+  height: 5px;        
+  background-color: coral;
+  border: none;       
+  margin: 10px auto;   
+  border-radius: 3px;  
+}
+
+
+span {
+  color: coral;
+}
