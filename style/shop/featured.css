@@ -1,0 +1,69 @@
+.featured-section {
+    width: 80%;
+    margin: 60px auto;
+}
+
+.featured-header {
+    text-align: start;
+}
+.featured-header > h1 {
+    font-weight: 400;
+}
+.featured-header > hr {
+    width: 5%;
+    border: 1px solid orange;
+    margin: 15px 0;
+}
+.product-feature  {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.product-feature img {
+    background: gray;
+    width: fit-content;
+    height: 260px;
+}
+.product-feature > article:hover  {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s opacity ease-in-out;
+}
+.product-feature > article:hover > button {
+    opacity: 1;
+    margin-bottom: 0px;
+    transition: 0.3s all ease-in-out;
+}
+
+.product-feature > :not(article:hover) > button {
+    opacity: 0;
+    transform: translateY(50px); 
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.product-feature > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-feature > article > .stars > svg {
+    width: 30px;
+    height: 30px;
+    color: gold;
+}
+
+.product-feature > article > button {
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: none;
+    width: 40%;
+    padding: 15px 0;
+    border-radius: 5px;
+    font-size: 15px;
+    opacity: 0;
+}
+

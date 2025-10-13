@@ -1,0 +1,90 @@
+.cart {
+  width: 100%;
+  margin-top: 20px;
+  padding:10px 25px;
+  background: #fff;
+ 
+}
+
+.cart h2 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  background-color: coral;
+  color: #fff;
+  padding: 12px 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
+tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px 10px;
+}
+
+.product img {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #555;
+}
+
+.text .product-name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #222;
+}
+
+.text span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #e63946;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+td:last-child, th:last-child {
+  text-align: right;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 14px;
+}
+
