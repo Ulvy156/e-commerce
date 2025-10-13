@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Account</title>
+    <title>CheckOut</title>
     <link rel="stylesheet" href="/style/home/main.css">
     <link rel="stylesheet" href="/style/home/footer.css">
-    <link rel="stylesheet" href="/style/account/account.css">
+    <link rel="stylesheet" href="/style/Account/checkout.css">
 </head>
+
 <body>
-    <!-- Navbar -->
-       <header class="header">
-        <nav class="nav container">
-            <div class="logo">
-            <a href="/">     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <!-- navbar -->
      <header class="header">
         <nav class="nav container">
             <div class="logo">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+            <a href="/">     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
                     <path fill="#cfd8dc" d="M5 19h38v19H5z" />
                     <path fill="#b0bec5" d="M5 38h38v4H5z" />
                     <path fill="#455a64" d="M27 24h12v18H27z" />
@@ -39,7 +37,6 @@
                     </g>
                     <path fill="#ffc107" d="M32 11h-5v8h6zm10 0h-5l2 8h6zm-26 0h5v8h-6zM6 11h5l-2 8H3z" />
                 </svg></a>
-                </svg>
             </div>
             <div class="nav-menu-container">
                 <ul class="nav-menu">
@@ -64,38 +61,44 @@
             </div>
         </nav>
     </header>
-     <!-- account -->
-    <section class="account">
-  <div class="account-info">
-    <h2>Account Info</h2>
-    <hr>
-    <p><strong>Name:</strong> ULVY</p>
-    <p><strong>Email:</strong> Ulvy@gmail.com</p>
-    <ul>
-      <li>Your order</li>
-      <li><a href="/pages/checkout.html">Logout</a></li>
-   
-    </ul>
-  </div>
-
-  <div class="account-form">
-    <h2>Change Password</h2>
+    <!-- check out -->
+ <div class="checkout">
+    <h2>Checkout</h2>
     <hr>
     <form>
-      <label for="password">Password</label>
-      <input type="password" id="password" name="password" placeholder="Password">
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" placeholder="Name">
+        </div>
 
-      <label for="confirm_password">Confirm Password</label>
-      <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password">
+        <div class="form-group">
+            <label>Email</label>
+            <input type="text" placeholder="Email">
+        </div>
 
-      <button type="submit">Change Password</button>
+        <div class="form-group">
+            <label>Phone</label>
+            <input type="text" placeholder="Phone">
+        </div>
+
+        <div class="form-group">
+            <label>City</label>
+            <input type="text" placeholder="City">
+        </div>
+
+        <div class="form-group" style="width: 95%;">
+            <label>Address</label>
+            <input type="text" placeholder="Address">
+        </div>
+        <div class="button">
+            <button type="button">Check Out</button>
+        </div>
     </form>
-  </div>
-</section>
+</div>
 
-    </section>
+
     <!-- footer -->
-      <footer class="footer">
+    <footer class="footer">
         <section>
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
                 <path fill="#cfd8dc" d="M5 19h38v19H5z" />
@@ -182,6 +185,7 @@
             </div>
         </section>
     </footer>
-    
 </body>
+
+
 </html>
