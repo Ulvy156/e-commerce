@@ -1,19 +1,14 @@
 <?php
 $username = "root";
+$psw = "";
+$server = "localhost";
+$db = "php-project";
 
-$psw="";
-$server ="localhost";
-$db="php-project";
-$con= mysqli_connect($server,$username,$psw,$db,3306);
+$con = mysqli_connect($server, $username, $psw, $db, 3306);
 
-
-if($con){
-    echo "<aleart>connect success</aleart>";
-}else{
-
-    echo"<aleart>connect success</aleart>";
+if ($con) {
+    echo "<script>alert('connect success')</script>";
+} else {
+    echo "<script>alert('connect failed')</script>";
 }
-
-
-
 ?>
