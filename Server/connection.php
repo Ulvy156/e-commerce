@@ -1,8 +1,10 @@
 <?php
 $username = "root";
-$psw = "";
-$server = "127.0.0.1";
-$db = "e-commerce";
+
+$psw="";
+$server ="localhost";
+$db="php-project";
+
 
 $con = mysqli_connect($server, $username, $psw, $db, 3306);
 
