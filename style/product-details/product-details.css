@@ -6,9 +6,12 @@
 .details {
   display: flex;
   column-gap: 10px;
+  height: 300px;
 }
 .details img {
   width: 50%;
+ 
+
 }
 .product-content > span {
   color: rgb(180, 179, 179);
@@ -39,10 +42,11 @@
   border: 1px solid rgb(194, 190, 190);
   text-align: center;
 }
-.add-to-cart button {
+ button {
   background: #ff6b35;
   padding: 10px;
   border: none;
   color: white;
   cursor: pointer;
 }
+

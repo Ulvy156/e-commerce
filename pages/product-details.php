@@ -78,7 +78,7 @@ if ($id > 0) {
                       <?php include "../Components/stars.php"; ?>
                       <p><?= htmlspecialchars($row_cat['product_name']); ?></p>
                       <p><?= htmlspecialchars($row_cat['product_price']); ?>$</p>
-                      <a href="cart.php?action=add&id=<?= (int)$row_cat['product_id']; ?>&qty=1"><button type="button">Shop Now</button></a>
+                      <a href="cart.php?action=add&id=<?= (int)$row_cat['product_id']; ?>&qty=1"><button type="button" >Shop Now</button></a>
                     </article>
         <?php
                 endwhile;

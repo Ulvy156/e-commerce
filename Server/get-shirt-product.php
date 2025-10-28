@@ -14,7 +14,7 @@
                  <?php include "Components/stars.php"; ?>
                 <p><?php echo $row['product_name'] ?></p>
                 <p>$<?php echo $row['product_price'] ?></p>
-                <button>Shop Now</button>
+                <button >Shop Now</button>
             </article>
 <?php
     }

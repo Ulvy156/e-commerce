@@ -14,7 +14,7 @@
             <?php include "Components/stars.php"; ?>
                 <p><?php echo $row['product_name']?></p>
                 <p>$<?php echo $row['product_price']?></p>
-                <button>Shop Now</button>
+                <button onclick="window.location.href='/pages/product-details.php?id=<?php echo $row['product_id']?>&category=<?php echo $row['product_category']?>'"  >Shop Now</button>
             </article>
 <?php
     }
