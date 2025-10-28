@@ -71,15 +71,11 @@
             <p>Here you can checkout our featured products</p>
         </div>
         <div class="product-feature">
-            <?php  include "../Server/get-shoes-partner.php" ?>
+            <?php include "../Server/get-shoes-partner.php"?>
             <?php include "../Server/get-shirt-product.php"?>
-            <?php  include "../Server/get-sport-shoes.php" ?>
+            <?php include "../Server/get-sport-shoes.php"?>
             <?php include "../Server/get-watch-partner.php"?>
 
-           
-            
-           
-       
         </div>
         <div class="pagination">
             <p>Previous</p>
