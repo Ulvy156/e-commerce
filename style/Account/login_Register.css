@@ -9,17 +9,19 @@
   
 }
 
-.login,.register h2 {
-    margin-bottom: 5px;
+.login .register h2 {
+    margin-bottom: 10px;
 }
 
-hr {
+
+hr{
     width: 40px;
     height: 3px;
     border-radius: 10px;
     background-color: #ff6b35;
     border: none;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 .line{
     width:500px;
@@ -79,4 +81,7 @@ a{
     color: #ff6b35b8;
  
 
+}
+.error{
+    color: red;
 }
