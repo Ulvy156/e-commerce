@@ -55,6 +55,17 @@ form {
     justify-content: end;
     display: flex;
     width: 100%;
+ 
+
+}
+.payment{
+     justify-content: end;
+    display: flex;
+    width: 100%;
+    line-height: 2rem;
+    flex-direction: column;
+    align-items: center;
+
 }
 button{
     width: 100px;
