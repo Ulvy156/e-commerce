@@ -17,9 +17,9 @@ if ($orderId) {
         // Check if order items exist
         $itemsQuery = $con->query("SELECT * FROM order_items WHERE order_id = '$orderId'");
         if ($itemsQuery && $itemsQuery->num_rows > 0) {
-            $orderStatus = "✅ Order items successfully stored!";
+            $orderStatus = " Order items successfully!";
         } else {
-            $orderStatus = "⚠️ Order items not stored yet!";
+            $orderStatus = "Order items not yet successfully!";
         }
     }
 }

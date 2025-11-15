@@ -88,16 +88,9 @@
                 },
                 body: JSON.stringify(data)
             })
-            .then(res => res.json()) // parse JSON
+            .then(res => res.json()) 
             .then(response => {
-                console.log(response);
-
                 if (response.success) {
-                    // Optional: clear cart
-                    // localStorage.removeItem("cart");
-                    // localStorage.removeItem("cartTotal");
-
-                    // Redirect to payment with orderId and status
                     const orderId = response.orderId;
                     const orderStatus = response.orderStatus;
                     window.location.href = `payment.php?orderId=${orderId}&status=${orderStatus}`;

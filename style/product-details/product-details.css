@@ -9,8 +9,8 @@
   height: 300px;
 }
 .details img {
-  width: 50%;
- 
+  width: fit-content;
+  
 
 }
 .product-content > span {
@@ -34,10 +34,10 @@
 .add-to-cart {
   display: flex;
   column-gap: 10px;
-  width: 25%;
+  width: 85%;
 }
 .add-to-cart input {
-  width: 15%;
+  width: 20%;
   outline: none;
   border: 1px solid rgb(194, 190, 190);
   text-align: center;
